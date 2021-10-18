@@ -1,0 +1,31 @@
+.header {
+  background-color: #f6f6f6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100px;
+  z-index: 99;
+  box-shadow: rgb(0 0 0 / 10%) 0 2px 4px;
+  padding: 1rem;
+}
+
+.menu-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90vw;
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+.menu > a {
+  cursor: pointer;
+  padding: 1rem;
+}
